@@ -19,6 +19,14 @@
 		7F44FD581A16C5D100C30F61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44FD401A16C5D100C30F61 /* UIKit.framework */; };
 		7F44FD601A16C5D100C30F61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F44FD5E1A16C5D100C30F61 /* InfoPlist.strings */; };
 		7F44FD621A16C5D100C30F61 /* iEntourageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F44FD611A16C5D100C30F61 /* iEntourageTests.m */; };
+		7F5910301A1E5F3C00B591F4 /* ENTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F59102F1A1E5F3C00B591F4 /* ENTAdd.m */; };
+		7F5910331A1E5F9E00B591F4 /* ENTList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5910321A1E5F9E00B591F4 /* ENTList.m */; };
+		7F5910361A1FDE3B00B591F4 /* ENTTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5910351A1FDE3B00B591F4 /* ENTTask.m */; };
+		7F6ABB0E1A209CFD007AC3F9 /* ENTLoginBonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6ABB0D1A209CFD007AC3F9 /* ENTLoginBonesViewController.m */; };
+		7F6ABB101A20A624007AC3F9 /* owl3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F6ABB0F1A20A624007AC3F9 /* owl3.jpg */; };
+		7F6ABB131A20A8A2007AC3F9 /* ENTRegisterBonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6ABB121A20A8A2007AC3F9 /* ENTRegisterBonesViewController.m */; };
+		7F6ABB161A20ACB0007AC3F9 /* ENTHomeFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6ABB151A20ACB0007AC3F9 /* ENTHomeFeedViewController.m */; };
+		7F6ABB191A20B1BF007AC3F9 /* ENTNSURLSessionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6ABB181A20B1BF007AC3F9 /* ENTNSURLSessionUtil.m */; };
 		7FB1A2A41A191EE200D5B5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB1A2A31A191EE200D5B5A1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +57,21 @@
 		7F44FD5D1A16C5D100C30F61 /* iEntourageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iEntourageTests-Info.plist"; sourceTree = "<group>"; };
 		7F44FD5F1A16C5D100C30F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F44FD611A16C5D100C30F61 /* iEntourageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iEntourageTests.m; sourceTree = "<group>"; };
+		7F59102E1A1E5F3C00B591F4 /* ENTAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ENTAdd.h; path = iEntourage/ENTAdd.h; sourceTree = "<group>"; };
+		7F59102F1A1E5F3C00B591F4 /* ENTAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ENTAdd.m; path = iEntourage/ENTAdd.m; sourceTree = "<group>"; };
+		7F5910311A1E5F9E00B591F4 /* ENTList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTList.h; sourceTree = "<group>"; };
+		7F5910321A1E5F9E00B591F4 /* ENTList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTList.m; sourceTree = "<group>"; };
+		7F5910341A1FDE3B00B591F4 /* ENTTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTTask.h; sourceTree = "<group>"; };
+		7F5910351A1FDE3B00B591F4 /* ENTTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTTask.m; sourceTree = "<group>"; };
+		7F6ABB0C1A209CFD007AC3F9 /* ENTLoginBonesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTLoginBonesViewController.h; sourceTree = "<group>"; };
+		7F6ABB0D1A209CFD007AC3F9 /* ENTLoginBonesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTLoginBonesViewController.m; sourceTree = "<group>"; };
+		7F6ABB0F1A20A624007AC3F9 /* owl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = owl3.jpg; sourceTree = "<group>"; };
+		7F6ABB111A20A8A2007AC3F9 /* ENTRegisterBonesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTRegisterBonesViewController.h; sourceTree = "<group>"; };
+		7F6ABB121A20A8A2007AC3F9 /* ENTRegisterBonesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTRegisterBonesViewController.m; sourceTree = "<group>"; };
+		7F6ABB141A20ACB0007AC3F9 /* ENTHomeFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTHomeFeedViewController.h; sourceTree = "<group>"; };
+		7F6ABB151A20ACB0007AC3F9 /* ENTHomeFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTHomeFeedViewController.m; sourceTree = "<group>"; };
+		7F6ABB171A20B1BF007AC3F9 /* ENTNSURLSessionUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTNSURLSessionUtil.h; sourceTree = "<group>"; };
+		7F6ABB181A20B1BF007AC3F9 /* ENTNSURLSessionUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTNSURLSessionUtil.m; sourceTree = "<group>"; };
 		7FB1A2A31A191EE200D5B5A1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +102,12 @@
 		7F44FD301A16C5D000C30F61 = {
 			isa = PBXGroup;
 			children = (
+				7F5910341A1FDE3B00B591F4 /* ENTTask.h */,
+				7F5910351A1FDE3B00B591F4 /* ENTTask.m */,
+				7F59102F1A1E5F3C00B591F4 /* ENTAdd.m */,
+				7F59102E1A1E5F3C00B591F4 /* ENTAdd.h */,
+				7F5910311A1E5F9E00B591F4 /* ENTList.h */,
+				7F5910321A1E5F9E00B591F4 /* ENTList.m */,
 				7F44FD421A16C5D100C30F61 /* iEntourage */,
 				7F44FD5B1A16C5D100C30F61 /* iEntourageTests */,
 				7F44FD3B1A16C5D000C30F61 /* Frameworks */,
@@ -113,7 +142,16 @@
 				7F44FD4B1A16C5D100C30F61 /* ENTAppDelegate.h */,
 				7F44FD4C1A16C5D100C30F61 /* ENTAppDelegate.m */,
 				7F44FD4E1A16C5D100C30F61 /* Images.xcassets */,
+				7F6ABB0F1A20A624007AC3F9 /* owl3.jpg */,
 				7F44FD431A16C5D100C30F61 /* Supporting Files */,
+				7F6ABB0C1A209CFD007AC3F9 /* ENTLoginBonesViewController.h */,
+				7F6ABB0D1A209CFD007AC3F9 /* ENTLoginBonesViewController.m */,
+				7F6ABB111A20A8A2007AC3F9 /* ENTRegisterBonesViewController.h */,
+				7F6ABB121A20A8A2007AC3F9 /* ENTRegisterBonesViewController.m */,
+				7F6ABB141A20ACB0007AC3F9 /* ENTHomeFeedViewController.h */,
+				7F6ABB151A20ACB0007AC3F9 /* ENTHomeFeedViewController.m */,
+				7F6ABB171A20B1BF007AC3F9 /* ENTNSURLSessionUtil.h */,
+				7F6ABB181A20B1BF007AC3F9 /* ENTNSURLSessionUtil.m */,
 			);
 			path = iEntourage;
 			sourceTree = "<group>";
@@ -226,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6ABB101A20A624007AC3F9 /* owl3.jpg in Resources */,
 				7FB1A2A41A191EE200D5B5A1 /* Main.storyboard in Resources */,
 				7F44FD471A16C5D100C30F61 /* InfoPlist.strings in Resources */,
 				7F44FD4F1A16C5D100C30F61 /* Images.xcassets in Resources */,
@@ -247,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6ABB191A20B1BF007AC3F9 /* ENTNSURLSessionUtil.m in Sources */,
+				7F5910361A1FDE3B00B591F4 /* ENTTask.m in Sources */,
+				7F6ABB161A20ACB0007AC3F9 /* ENTHomeFeedViewController.m in Sources */,
 				7F44FD4D1A16C5D100C30F61 /* ENTAppDelegate.m in Sources */,
+				7F6ABB0E1A209CFD007AC3F9 /* ENTLoginBonesViewController.m in Sources */,
+				7F6ABB131A20A8A2007AC3F9 /* ENTRegisterBonesViewController.m in Sources */,
 				7F44FD491A16C5D100C30F61 /* main.m in Sources */,
+				7F5910301A1E5F3C00B591F4 /* ENTAdd.m in Sources */,
+				7F5910331A1E5F9E00B591F4 /* ENTList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -354,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
